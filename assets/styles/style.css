@@ -1,0 +1,871 @@
+
+@font-face {
+<<<<<<< HEAD
+    src: url(./assets/fonts/ZenKakuGothicNew-Light.ttf) format("truetype");
+    font-family: "Zen Kaku Gothic New";
+    font-weight: 300;
+    font-style: normal;
+  }
+  @font-face {
+    src: url(./assets/fonts/ZenKakuGothicNew-Regular.ttf) format("truetype");
+    font-family: "Zen Kaku Gothic New";
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    src: url(./assets/fonts/ZenKakuGothicNew-Medium.ttf) format("truetype");
+    font-family: "Zen Kaku Gothic New";
+    font-weight: 500;
+    font-style: normal;
+  }
+  @font-face {
+    src: url(./assets/fonts/ZenKakuGothicNew-Bold.ttf) format("truetype");
+    font-family: "Zen Kaku Gothic New";
+    font-weight: 700;
+    font-style: normal;
+  }
+  @font-face {
+    src: url(./assets/fonts/ZenKakuGothicNew-Black.ttf) format("truetype");
+    font-family: "Zen Kaku Gothic New";
+    font-weight: 900;
+    font-style: normal;
+  }
+  @font-face {
+    src: url(./assets/fonts/Podkova-Regular.ttf) format("truetype");
+    font-family: "Podkova";
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    src: url(./assets/fonts/Podkova-Medium.ttf) format("truetype");
+    font-family: "Podkova";
+    font-weight: 500;
+    font-style: normal;
+  }
+  @font-face {
+    src: url(./assets/fonts/Podkova-SemiBold.ttf) format("truetype");
+    font-family: "Podkova";
+    font-weight: 600;
+    font-style: normal;
+  }
+  @font-face {
+    src: url(./assets/fonts/Podkova-Bold.ttf) format("truetype");
+    font-family: "Podkova";
+    font-weight: 700;
+    font-style: normal;
+  }
+  @font-face {
+    src: url(./assets/fonts/Podkova-ExtraBold.ttf) format("truetype");
+    font-family: "Podkova";
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  /* Header */
+  
+  .header {
+    background-color: rgba(183, 145, 95, 0.1);
+    border-bottom: 1.5px solid rgba(183, 145, 95, 0.5);
+    font-size: 1.1em;
+  }
+  .header__link-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 5%;
+    list-style-type: none;
+    padding: 10px;
+  }
+  .header__link {
+    color: black;
+    text-decoration: none;
+  }
+  .header__logo {
+    max-height: 60px;
+  }
+  
+  /* Блок 1 */
+  
+  .block-1 {
+    background-image: url(../images/Main_picture_01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1.5px solid rgba(183, 145, 95, 0.5);
+  }
+  .block-1__h1 {
+    width: 40%;
+    margin: 10% 0 0 10%;
+  }
+  .block-1__text {
+    width: 40%;
+    margin-left: 10%;
+  }
+  .block-1__button {
+    max-width: 20%;
+    margin: 10px 0 10% 10%;
+    border: 1.5px solid rgba(183, 145, 95, 0.5);
+  }
+  
+  /* Блок 2 */
+  
+  .block-2 {
+    margin: 0 10vw 10vw 10vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .block-2__img {
+    height: 40vw;
+    margin: 15px;
+  }
+  .block-2__container {
+    padding: 10px;
+  }
+  
+  /* Блок 3 */
+  
+  .block-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10vw 3vw 10vw;
+  }
+  .block-3-container {
+    width: 90%;
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+    justify-items: center;
+  }
+  .block-3-container__item {
+    text-align: center;
+  }
+  .block-3-container__text {
+    border: 1.5px solid rgba(183, 145, 95, 0.5);
+    padding: 20px;
+    background-color: white;
+    width: 100%;
+  }
+  
+  /* Блок 4 */
+  
+  .block-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 3vw;
+  }
+  .block-4__box {
+    width: 50%;
+  }
+  .block-4__point {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid rgba(183, 145, 95, 0.5);
+    margin-bottom: 3%;
+    background-color: white;
+  }
+  .block-4__number {
+    margin: 3% 6% 3% 3%;
+  }
+  .block-4__text {
+    margin-right: 1.5%;
+  }
+  
+  /* Блок 5 */
+  
+  .block-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 3vw;
+  }
+  .block-5__container {
+    margin: 0 0 5vw 0;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  .block-5__container > div {
+    background-color: white;
+    border: 1.5px solid rgba(183, 145, 95, 0.5);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+  }
+  .block-5__container > div > h3 {
+    padding: 0 15px 0 15px;
+  }
+  .block-5__container > div > p {
+    padding: 0 15px 0 15px;
+  }
+  .block-5__container-link {
+    border-top: 1.5px solid rgba(183, 145, 95, 0.5);
+  }
+  
+  /* Footer */
+  
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(183, 145, 95, 0.5);
+  }
+  .footer__link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .footer__link-social > a > img {
+    width: 50px;
+    padding: 10px;
+  }
+  .footer__link > div > a {
+    color: black;
+    text-decoration: none;
+  }
+  .footer__bottom{
+    border-top:1px solid  rgba(183, 145, 95, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+  }
+  .footer__bottom > a{
+    color: black;
+    text-decoration: none;
+  }
+  
+  /*NEWS-PAGE*/
+  
+  .block-news {
+    background-image: url(../images/Main_picture_01.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    height: 100vh;
+  }
+  .block-news__container {
+    margin: 0 10vw 10vw 10vw;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(70vw, 1fr));
+  }
+  .block-news__container-text {
+    background-color: white;
+    border: 1.5px solid rgba(183, 145, 95, 0.5);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .block-news__container > div > h3 {
+    padding: 0 15px 0 15px;
+  }
+  .block-news__container-text > p {
+    padding: 0 15px 0 15px;
+  }
+  .block-news__link {
+    background-color: white;
+    border-top: 1.5px solid rgba(183, 145, 95, 0.5);
+    color: rgb(183, 145, 95);
+    text-decoration: none;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  /*CONTACT-PAGE*/
+  
+  .block-main {
+    background-image: url(../images/Main_picture_01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 1.5px solid rgba(183, 145, 95, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    text-align: center;
+    height: 100vh;
+    padding: 10px;
+  }
+  .button-link {
+    background-color: white;
+    border: 1.5px solid rgba(183, 145, 95, 0.5);
+    border-radius: 70px;
+    width: 50vw;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    margin-top: 5vw;
+  }
+  .block-main__icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50vw;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .block-1 {
+      align-items: center;
+      margin: 0;
+    }
+    .block-1__h1 {
+      width: 100%;
+      margin: 5vw 0 0 0;
+      text-align: center;
+    }
+    .block-1__text {
+      width: 100%;
+      margin-left: 0;
+      text-align: center;
+    }
+    .block-1__button {
+      max-width: 70%;
+      padding: 20px;
+      margin: 5% 0 5% 5%;
+    }
+    .block-2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .block-2__img {
+      height: 70vw;
+    }
+    /* Блок 3 */
+  
+    .block-3 {
+      margin: 0;
+      text-align: center;
+    }
+    .block-3-container {
+      justify-content: center;
+      width: 100%;
+      grid-gap: 10px;
+    }
+  
+    .block-3-container__text {
+      width: 80%;
+    }
+  
+    .block-4__box {
+      width: 90%;
+    }
+    .block-5 {
+      margin: 0;
+      width: 100%;
+    }
+    .block-5__container {
+      margin: 15px;
+      display: grid;
+      grid-gap: 10px;
+      grid-template-columns: repeat(auto-fit, minmax(50vw, 600vw));
+      text-align: center;
+    }
+  
+  /* Footer */
+  
+  .footer__link-email{
+    display: none;
+  }
+  .footer__link {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  .footer__link-social > a > img {
+    width: 40px;
+    padding: 5px;
+  }
+  
+  .footer__bottom{
+    border-top:1px solid  rgba(183, 145, 95, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: start;
+    width: 100%;
+  }
+  
+    /*CONTACT-PAGE*/
+  
+    .block-main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: start;
+      text-align: center;
+    }
+    .button-link {
+      color: black;
+      text-decoration: none;
+    }
+    .block-main__icon {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+=======
+  src: url(./assets/fonts/ZenKakuGothicNew-Light.ttf) format("truetype");
+  font-family: "Zen Kaku Gothic New";
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  src: url(./assets/fonts/ZenKakuGothicNew-Regular.ttf) format("truetype");
+  font-family: "Zen Kaku Gothic New";
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  src: url(./assets/fonts/ZenKakuGothicNew-Medium.ttf) format("truetype");
+  font-family: "Zen Kaku Gothic New";
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  src: url(./assets/fonts/ZenKakuGothicNew-Bold.ttf) format("truetype");
+  font-family: "Zen Kaku Gothic New";
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  src: url(./assets/fonts/ZenKakuGothicNew-Black.ttf) format("truetype");
+  font-family: "Zen Kaku Gothic New";
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  src: url(./assets/fonts/Podkova-Regular.ttf) format("truetype");
+  font-family: "Podkova";
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  src: url(./assets/fonts/Podkova-Medium.ttf) format("truetype");
+  font-family: "Podkova";
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  src: url(./assets/fonts/Podkova-SemiBold.ttf) format("truetype");
+  font-family: "Podkova";
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  src: url(./assets/fonts/Podkova-Bold.ttf) format("truetype");
+  font-family: "Podkova";
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  src: url(./assets/fonts/Podkova-ExtraBold.ttf) format("truetype");
+  font-family: "Podkova";
+  font-weight: 800;
+  font-style: normal;
+}
+
+/* Header */
+
+.header {
+  background-color: rgba(183, 145, 95, 0.1);
+  border-bottom: 1.5px solid rgba(183, 145, 95, 0.5);
+  font-size: 1.1em;
+}
+.header__link-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 5%;
+  list-style-type: none;
+  padding: 10px;
+}
+.header__link {
+  color: black;
+  text-decoration: none;
+}
+.header__logo {
+  max-height: 60px;
+}
+
+/* Блок 1 */
+
+.block-1 {
+  background-image: url(../images/Main_picture_01.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1.5px solid rgba(183, 145, 95, 0.5);
+}
+.block-1__h1 {
+  width: 40%;
+  margin: 10% 0 0 10%;
+}
+.block-1__text {
+  width: 40%;
+  margin-left: 10%;
+}
+.block-1__button {
+  max-width: 20%;
+  margin: 10px 0 10% 10%;
+  border: 1.5px solid rgba(183, 145, 95, 0.5);
+}
+
+/* Блок 2 */
+
+.block-2 {
+  margin: 0 10vw 10vw 10vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.block-2__img {
+  height: 40vw;
+  margin: 15px;
+}
+.block-2__container {
+  padding: 10px;
+}
+
+/* Блок 3 */
+
+.block-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10vw 3vw 10vw;
+}
+.block-3-container {
+  width: 90%;
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+  justify-items: center;
+}
+.block-3-container__item {
+  text-align: center;
+}
+.block-3-container__text {
+  border: 1.5px solid rgba(183, 145, 95, 0.5);
+  padding: 20px;
+  background-color: white;
+  width: 100%;
+}
+
+/* Блок 4 */
+
+.block-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 3vw;
+}
+.block-4__box {
+  width: 50%;
+}
+.block-4__point {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid rgba(183, 145, 95, 0.5);
+  margin-bottom: 3%;
+  background-color: white;
+}
+.block-4__number {
+  margin: 3% 6% 3% 3%;
+}
+.block-4__text {
+  margin-right: 1.5%;
+}
+
+/* Блок 5 */
+
+.block-5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 3vw;
+}
+.block-5__container {
+  margin: 0 0 5vw 0;
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
+}
+.block-5__container > div {
+  background-color: white;
+  border: 1.5px solid rgba(183, 145, 95, 0.5);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+}
+.block-5__container > div > h3 {
+  padding: 0 15px 0 15px;
+}
+.block-5__container > div > p {
+  padding: 0 15px 0 15px;
+}
+.block-5__container-link {
+  border-top: 1.5px solid rgba(183, 145, 95, 0.5);
+}
+
+/* Footer */
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(183, 145, 95, 0.5);
+}
+.footer__link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+.footer__link-social > a > img {
+  width: 50px;
+  padding: 10px;
+}
+.footer__link > div > a {
+  color: black;
+  text-decoration: none;
+}
+.footer__bottom{
+  border-top:1px solid  rgba(183, 145, 95, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+}
+.footer__bottom > a{
+  color: black;
+  text-decoration: none;
+}
+
+/*NEWS-PAGE*/
+
+.block-news {
+  background-image: url(../images/Main_picture_01.png);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  height: 100vh;
+}
+.block-news__container {
+  margin: 0 10vw 10vw 10vw;
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(70vw, 1fr));
+}
+.block-news__container-text {
+  background-color: white;
+  border: 1.5px solid rgba(183, 145, 95, 0.5);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.block-news__container > div > h3 {
+  padding: 0 15px 0 15px;
+}
+.block-news__container-text > p {
+  padding: 0 15px 0 15px;
+}
+.block-news__link {
+  background-color: white;
+  border-top: 1.5px solid rgba(183, 145, 95, 0.5);
+  color: rgb(183, 145, 95);
+  text-decoration: none;
+  padding: 15px;
+  text-align: center;
+}
+
+/*CONTACT-PAGE*/
+
+.block-main {
+  background-image: url(../images/Main_picture_01.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 1.5px solid rgba(183, 145, 95, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  text-align: center;
+  height: 100vh;
+  padding: 10px;
+}
+.button-link {
+  background-color: white;
+  border: 1.5px solid rgba(183, 145, 95, 0.5);
+  border-radius: 70px;
+  width: 50vw;
+  color: black;
+  text-decoration: none;
+  padding: 15px;
+  margin-top: 5vw;
+}
+.block-main__icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 50vw;
+}
+
+@media screen and (max-width: 650px) {
+  .block-1 {
+    align-items: center;
+    margin: 0;
+  }
+  .block-1__h1 {
+    width: 100%;
+    margin: 5vw 0 0 0;
+    text-align: center;
+  }
+  .block-1__text {
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+  }
+  .block-1__button {
+    max-width: 70%;
+    padding: 20px;
+    margin: 5% 0 5% 5%;
+  }
+  .block-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .block-2__img {
+    height: 70vw;
+  }
+  /* Блок 3 */
+
+  .block-3 {
+    margin: 0;
+    text-align: center;
+  }
+  .block-3-container {
+    justify-content: center;
+    width: 100%;
+    grid-gap: 10px;
+  }
+
+  .block-3-container__text {
+    width: 80%;
+  }
+
+  .block-4__box {
+    width: 90%;
+  }
+  .block-5 {
+    margin: 0;
+    width: 100%;
+  }
+  .block-5__container {
+    margin: 15px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(50vw, 600vw));
+    text-align: center;
+  }
+
+/* Footer */
+
+.footer__link-email{
+  display: none;
+}
+.footer__link {
+  flex-direction: column;
+  margin-top: 10px;
+}
+.footer__link-social > a > img {
+  width: 40px;
+  padding: 5px;
+}
+
+.footer__bottom{
+  border-top:1px solid  rgba(183, 145, 95, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: start;
+  width: 100%;
+}
+
+  /*CONTACT-PAGE*/
+
+  .block-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    text-align: center;
+  }
+  .button-link {
+    color: black;
+    text-decoration: none;
+  }
+  .block-main__icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+>>>>>>> e24023f8f0afbebc7c020f746d50d4c00d7dbc3c

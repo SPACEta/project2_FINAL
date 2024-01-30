@@ -1,0 +1,114 @@
+.block-2__header {
+<<<<<<< HEAD
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    color: rgba(183, 145, 95, 0.814);
+  }
+  
+  .block-1__text,
+  .block-2__text,
+  .block-3-container__text,
+  .block-4__text,
+  .text {
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-weight: 300;
+    font-size: 0.9em;
+    color: black;
+  }
+  
+  .block-4__textbold,
+  .text-bold,
+  .block-news__header {
+    font-family: "Podkova", serif;
+    font-weight: 700;
+    font-size: 1.15em;
+  }
+  
+  .block-4__number,
+  .block-3-container__item {
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-weight: 500;
+    font-size: 1.2em;
+    color: rgb(183, 145, 95);
+  }
+  
+  .block-1__button,
+  .block-5__container-link {
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    background-color: white;
+    color: rgb(183, 145, 95);
+    text-decoration: none;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .header,
+  .block-1__h1,
+  .block-3__header,
+  .block-4__header,
+  .block-5__header,
+  .block-5__container > div > h3,
+  .footer,
+  .block-main,
+  .block-news__container-text {
+    font-family: "Zen Kaku Gothic New", sans-serif;
+  }
+  
+  /*# sourceMappingURL=style1.css.map */
+
+
+=======
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  color: rgba(183, 145, 95, 0.814);
+}
+
+.block-1__text,
+.block-2__text,
+.block-3-container__text,
+.block-4__text,
+.text {
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-weight: 300;
+  font-size: 0.9em;
+  color: black;
+}
+
+.block-4__textbold,
+.text-bold,
+.block-news__header {
+  font-family: "Podkova", serif;
+  font-weight: 700;
+  font-size: 1.15em;
+}
+
+.block-4__number,
+.block-3-container__item {
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-weight: 500;
+  font-size: 1.2em;
+  color: rgb(183, 145, 95);
+}
+
+.block-1__button,
+.block-5__container-link {
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  background-color: white;
+  color: rgb(183, 145, 95);
+  text-decoration: none;
+  padding: 15px;
+  text-align: center;
+}
+
+.header,
+.block-1__h1,
+.block-3__header,
+.block-4__header,
+.block-5__header,
+.block-5__container > div > h3,
+.footer,
+.block-main,
+.block-news__container-text {
+  font-family: "Zen Kaku Gothic New", sans-serif;
+}
+
+/*# sourceMappingURL=style1.css.map */
+>>>>>>> e24023f8f0afbebc7c020f746d50d4c00d7dbc3c

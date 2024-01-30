@@ -1,0 +1,81 @@
+@import "variables.scss";
+
+@mixin header {
+    font: {
+        family: $accent-font;
+    }
+    color: rgba(183, 145, 95, 0.814);
+}
+
+.block-2__header {
+    @include header;
+}
+
+@mixin textsmall {
+    font: {
+        family: $accent-font;
+        weight: 300;
+        size: 0.9em;
+    }
+    color: black;
+}
+
+.block-1__text,
+.block-2__text,
+.block-3-container__text,
+.block-4__text,
+.text {
+    @include textsmall;
+}
+
+@mixin textbig {
+    font: {
+        family: $default-font;
+        weight: 700;
+        size: 1.15em;
+    }
+}
+.block-4__textbold,
+.text-bold,
+.block-news__header {
+    @include textbig;
+}
+
+@mixin textnumber {
+    font: {
+        family: $accent-font;
+        weight: 500;
+        size: 1.2em;
+    }
+    color: rgb(183, 145, 95);
+}
+.block-4__number,
+.block-3-container__item {
+    @include textnumber;
+}
+
+@mixin button {
+    font-family: $accent-font;
+    background-color: white;
+    color: rgb(183, 145, 95);
+    text-decoration: none;
+    padding: 15px;
+    text-align: center;
+}
+
+.block-1__button,
+.block-5__container-link {
+    @include button;
+}
+
+.header,
+.block-1__h1,
+.block-3__header,
+.block-4__header,
+.block-5__header,
+.block-5__container > div > h3,
+.footer,
+.block-main,
+.block-news__container-text {
+    font-family: $accent-font;
+}
